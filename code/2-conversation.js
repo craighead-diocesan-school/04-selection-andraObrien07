@@ -5,15 +5,15 @@
 function conversation() {
   alert("Let's pick a sport for you.")
 
-  alert('Do you like running? Answer yes or no.')
-  let answer = prompt()
-}
-if (answer == 'yes')
-  alert("That's good - you should try track and field sports.")
-alert('Do you like track and field? Answer yes or no.')
-let answer = prompt()
-alert('You should do it then!')
 
+  let answer = prompt('Do you like running? Answer yes or no.')
+}
+if (answer == 'yes') {
+  alert("That's good, you should try track and field sports.")
+
+  let answer = prompt('Do you like track and field? Answer yes or no.')
+  alert('You should do it then!')
+}
 
 
 function age() {

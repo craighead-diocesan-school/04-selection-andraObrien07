@@ -12,23 +12,25 @@ function saleCalculator() {
   money = Number(money)
   price = Number(price)
   discount = Number(discount)
-  decimaldiscount = discount / 100
-  decimaldiscount = Number(decimaldiscount)
-  NewTotal = decimaldiscount * price
+  discount = discount / 100
+  // discount = Number(discount)
+  olddiscount = discount * price
+  newprice = price - olddiscount
+
+
 
   // if (money < NewTotal) {
   //   alert('You do not have enough money!')
   // }
-  if (money < price) {
+  if (money < newprice) {
     alert('You do not have enough money ')
+    alert('even with the' + discount + '%')
   }
 
-  else if (money > price) {
+  else if (money > newprice) {
     alert('You have enough money.')
-
+    alert('with the discount of ' + discount)
   }
 
-
-
-
+  // discount = discount / 100
 }
