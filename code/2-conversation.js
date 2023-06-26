@@ -3,17 +3,26 @@
 // ####################################
 
 function conversation() {
-  alert("Let's pick a sport for you.")
 
+  alert('lets have a convo!')
+  let sports = prompt('do you like sports? yes or no')
 
-  let answer = prompt('Do you like running? Answer yes or no.')
+  if (sports == 'yes') {
+    let run = prompt('Thats great! Do you enjoy running? yes or no')
+
+    if (run == 'yes') {
+      alert('You should try track and field sports then!')
+    }
+
+    if (run == 'no') {
+      alert('Maybe you should try swimming, that includes no running')
+    }
+  }
+  else {
+    alert('then why are we even having a convo?')
+  }
 }
-if (answer == 'yes') {
-  alert("That's good, you should try track and field sports.")
 
-  let answer = prompt('Do you like track and field? Answer yes or no.')
-  alert('You should do it then!')
-}
 
 
 function age() {
