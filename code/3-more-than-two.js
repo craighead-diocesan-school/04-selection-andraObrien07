@@ -17,7 +17,9 @@ function moreThanTwo() {
       alert(number + ' is less than 2')
     }
 
-
+    else {
+      let stop = prompt('Do u wanna stop')
+    }
   }
 
 }

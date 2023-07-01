@@ -19,7 +19,7 @@ function conversation() {
     }
   }
   else {
-    alert('then why are we even having a convo?')
+    alert('i dont wanna talk anymore')
   }
 }
 
