@@ -3,12 +3,15 @@
 // ####################################
 
 function moreThanTwo() {
+  // let stop = prompt('Do u wanna stop')
+
+  Alert('is the number more than 2?')
+  let number = prompt('Give me a number')
   let stop = prompt('Do u wanna stop')
-
-
   while (stop != 'yes') {
 
     let number = prompt('Give me a number')
+    let stop = prompt('Do u wanna stop')
     if (number > 2) {
       alert(number + ' is more than 2')
     }
