@@ -25,8 +25,8 @@ function moreThanTwo() {
   //   }
   // }
   let number = prompt('Give me a number')
-
-  while (number != 'stop') {
+  let stops = ''
+  while (stops != 'stop') {
     let number = prompt('Give me a number')
     if (number > 2) {
       alert(number + ' is more than 2')
@@ -38,5 +38,7 @@ function moreThanTwo() {
     else if (number < 2) {
       alert(number + ' is less than 2')
     }
+
+    stops = prompt('Say stop if you wanna stop')
   }
 }
