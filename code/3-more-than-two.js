@@ -24,7 +24,7 @@ function moreThanTwo() {
   //     let stop = prompt('Do u wanna stop')
   //   }
   // }
-  let number = prompt('Give me a number')
+  // let number = prompt('Give me a number')
   let stops = ''
   while (stops != 'stop') {
     let number = prompt('Give me a number')
